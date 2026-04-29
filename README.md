@@ -78,3 +78,6 @@ Start your MCP server seperately on 8080 port number
 to run you may need to install supporting libs in advance like mcp-remote
 execute `npx mcp-remote http://localhost:8080/mcp`
 
+#### Developed MCP server tested from VS code GitHub Copilot Labs extension and it is working fine.
+
+![feed_search_mcp_test_with_vscode](screenshots/feed_search_mcp_test_with_vscode.png)
