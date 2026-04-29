@@ -15,3 +15,7 @@ How to run:
 
 #### How to run application
 `python fastapi-mcp-calculator.py` it will bring up fastapi server on localhost 8080 port number.
+
+##### To access Open API Documentationf of FastAPI use below url.
+
+`http://lcoalhost:8080/docs`
