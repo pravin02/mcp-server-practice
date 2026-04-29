@@ -58,4 +58,4 @@ run inspector to test feed search api MCP server.
 #### Evidences
 ![Feed Search MCP Server Request](screenshots/feed_search_mcp.png)
 
-![Feed Search MCP Server Response](screenshots/feed_search_mcp.png)
+![Feed Search MCP Server Response](screenshots/feed_search_mcp2.png)
