@@ -1,6 +1,9 @@
 import uvicorn
 from fastapi import FastAPI
 
+# To convert fastapi server into MCP server
+from fastapi_mcp import FastApiMCP
+
 app = FastAPI(title="FastAPI Server")
 
 
@@ -34,6 +37,12 @@ def multiply(no1 : float, no2: float):
     returns multiply of two numbers
     """
     return {"result": no1 * no2}
+
+
+# Now convert fastapi application into MCP server
+mcp = FastApiMCP(app, name="Calculator MCP Server")
+mcp.mount_http() # to run MCP server as http
+
 
 def main():
     uvicorn.run(app, host="localhost", port=8080)
