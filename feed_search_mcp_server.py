@@ -87,3 +87,10 @@ def youtube_dynamic_rss_feed_tool(channel_id: str, query: str, max_results: int 
         return results or ({"message": "No results found"})
     except Exception as e:
         return {"status": False, "error": e}
+
+
+def main():    
+    mcp.run(transport="http", host="localhost", port=8080, show_banner=True)
+
+if __name__ == "__main__":
+    main()
