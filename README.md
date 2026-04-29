@@ -38,3 +38,24 @@ Response:
 
 > {
     "jsonrpc":"2.0","id":"server-error","error":{"code":-32600,"message":"Not Acceptable: Client must accept text/event-stream"}}
+
+
+## feed_search_mcp_server.py
+This application demonstrates the capability of polling realtime freecodecamp.org/news feeds and look for users entered criteria and returns list of title, description and link.
+
+#### Dependecies
+1. Pyhon
+2. uv - package manager to install deps.
+2. Node - for npx
+
+#### How to run
+`uv run main.py`
+
+run inspector to test feed search api MCP server.
+
+`npx @modelcontextprotocol/inspector http://localhost:8080/mcp`
+
+#### Evidences
+![Feed Search MCP Server Request](screenshots/feed_search_mcp.png)
+
+![Feed Search MCP Server Response](screenshots/feed_search_mcp.png)
