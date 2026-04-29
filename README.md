@@ -4,7 +4,10 @@ This repo contains examples of MCP server and its usage and integration with too
 ### STDIO Calculator MCP Server
 
 #### Dependencies:
-`uv add fastmcp`
+1. Pyhon
+2. uv - package manager to install deps.
+2. Node - for npx
+4. ollama - Install any model
 
 How to run:
 `npx @modelcontextprotocol/inspector python main.py`
@@ -64,3 +67,14 @@ run inspector to test feed search api MCP server.
 ![Youtube Feed Search MCP Server Request](screenshots/feed_search_mcp3.png)
 
 ![Youtube Feed Search MCP Server Response](screenshots/feed_search_mcp4.png)
+
+
+### .vscode/mcp.json
+configured in VS Code
+Extions -> MCP Servers - Installed -> Start Server
+
+Start your MCP server seperately on 8080 port number
+
+to run you may need to install supporting libs in advance like mcp-remote
+execute `npx mcp-remote http://localhost:8080/mcp`
+

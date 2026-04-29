@@ -23,3 +23,9 @@ def division(no1 : float, no2 : float) -> float:
     if no2 == 0:
         raise ValueError("Division number mst not be 0")
     return no1 / no2
+
+def main():    
+    mcp.run()
+
+if __name__ == "__main__":
+    main()

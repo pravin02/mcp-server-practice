@@ -1,0 +1,18 @@
+{
+    "servers": {
+        "Calculator-STDIO": {
+            "command": "S:/repositories/python/mcp-server-practice/.venv/Scripts/python.exe",
+            "args": [
+                "fastmcp_calculator.py"
+            ]
+        },
+
+        "RSS Feed Search Server - HTTP": {
+            "command": "npx",
+            "args": [
+                "mcp-remote",
+                "http://localhost:8080/mcp",
+            ]
+        }
+    }
+}
