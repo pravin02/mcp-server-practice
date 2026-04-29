@@ -1,0 +1,10 @@
+{
+    "servers": {
+        "Calculator-STDIO": {
+            "command": "S:/repositories/python/mcp-server-practice/.venv/Scripts/python.exe",
+            "args": [
+                "fastmcp_calculator.py"
+            ]
+        }
+    }
+}
