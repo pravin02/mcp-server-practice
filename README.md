@@ -59,3 +59,8 @@ run inspector to test feed search api MCP server.
 ![Feed Search MCP Server Request](screenshots/feed_search_mcp.png)
 
 ![Feed Search MCP Server Response](screenshots/feed_search_mcp2.png)
+
+#### youtube videos rrs feed search capability added
+![Youtube Feed Search MCP Server Request](screenshots/feed_search_mcp3.png)
+
+![Youtube Feed Search MCP Server Response](screenshots/feed_search_mcp4.png)
